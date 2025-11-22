@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Password_Manager/sw.js', { scope: '/Password_Manager/' })})}
